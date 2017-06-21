@@ -1,0 +1,72 @@
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+#main{
+  min-height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#headerDiv{
+  margin: -20px -20px 10px -20px;
+  position: static;
+  height: 80px;
+  background-color: #D3D3D3;
+  display: flex;
+}
+
+#beerDetail{
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width : 45%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+
+  border-radius: 30px;
+}
+
+#ingredients-div{
+  min-width: 350px;
+  width: 45%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+#ingredients-div p {
+  margin: 0.5em;
+}
+
+#text-div {
+  background-color: #F5F5F5;
+  text-align: center;
+  margin-top: 1em;
+  padding: 10%;
+
+}
+
+p {
+  margin: 5%;
+  text-align: center;
+}
+
+img{
+
+}
+
+#selectElement{
+  font-size: 1em;
+  margin: auto;
+  margin-top: 2%;
+  width: 30%;
+  height: 3em;
+};
