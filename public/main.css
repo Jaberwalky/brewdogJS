@@ -27,11 +27,9 @@ body {
   justify-content: center;
   width : 45%;
   height: auto;
-  padding: 10px;
   margin: auto;
-
-  border-radius: 30px;
 }
+
 
 #ingredients-div{
   min-width: 350px;
@@ -50,7 +48,7 @@ body {
   background-color: #F5F5F5;
   text-align: center;
   margin-top: 1em;
-  padding: 10%;
+  padding: 5%;
 
 }
 
